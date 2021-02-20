@@ -186,7 +186,7 @@ namespace NFe.Utils.InformacoesSuplementares
             {
                 {Estado.PR, versao3E4, "http://www.dfeportal.fazenda.pr.gov.br/dfe-portal/rest/servico/consultaNFCe?"},
                 {Estado.SE, versao3E4, "http://www.hom.nfe.se.gov.br/portal/consultarNFCe.jsp?"},
-                {Estado.SP, versao3E4, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx"},
+                {Estado.SP, versao3E4, "https://www.homologacao.nfce.fazenda.sp.gov.br/NFCeConsultaPublica/Paginas/ConsultaQRCode.aspx"}
             };
             adicionarUrls(TipoAmbiente.Homologacao, TipoUrlConsultaPublica.UrlQrCode, new[] { VersaoQrCode.QrCodeVersao1 }, urlsQrCodeHomologacaoQrCode1);
 
